@@ -1,0 +1,49 @@
+1-
+Git Bash Kurulduktan Sonra kullanıcı bilgilerimizi aşağıdaki şekilde giriyoruz:
+
+git config --global user.name "Caner Mollaoğlu"
+
+git config --global user.email "canermollaoglu@hotmail.com
+
+2-
+Git versiyon kontrol sistemini entegre etmek istediğimiz klasöre konumlanmamız gerekiyor. (D:\KODLAMA\YMYP4\4-GitGithub)
+
+cd /D/KODLAMA/YMYP4/4-GitGithub
+
+3-
+git init komutu çalıştırılır. Bu şekilde .git klasörü projemize eklendi ve local repository'miz yapıldı.
+
+4-
+Versiyonlayarak kontrol etmek istediğimiz bilgi.txt dosyası staging area'ya elenir.
+
+git add bilgi.txt
+git add . (klasörde bulunan tüm dosyalar staging'e eklenir.)
+
+5-
+Sistemdeki mevcut değişiklikleri izlemek için aşağıdaki komutu çalıştırabiliriz:
+
+git status
+
+6-
+COMMİT
+bilgi.txt dosyamızın ilk versiyonunu oluşturmak için commit atarız.
+
+git commit -m "bilgi dosyası eklendi"
+
+7-
+Sistemde yapılan tüm commitleri izlemek için aşağıdaki komut çalıştırılır:
+
+git log 
+
+8-
+Proje klasörümüzde bulanan tüm dosyaların versiyonlanmasını istemeyebiliriz. Bu durumda gitignore dosyasını kullanırız. Bunun için hazır templateler bulunmaktadır:
+
+https://github.com/github/gitignore
+https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+ya da dosya içerisine direkt olarak:
+bilgi.txt şeklinde dosya ismi de verebiliriz.
+
+
+
+
